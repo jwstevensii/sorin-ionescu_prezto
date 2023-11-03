@@ -39,7 +39,15 @@ zstyle ':prezto:load' pmodule \
   'utility' \
   'completion' \
   'history-substring-search' \
-  'prompt'
+  'prompt' \
+  'homebrew' \
+  'node' \
+  'syntax-highlighting' \
+  'autosuggestions' \
+  'osx' \
+  'docker' \
+  'command-not-found' \
+  'git'
 
 #
 # Autosuggestions
@@ -142,7 +150,8 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 # Set the prompt theme to load.
 # Setting it to 'random' loads a random theme.
 # Auto set to 'off' on dumb terminals.
-zstyle ':prezto:module:prompt' theme 'sorin'
+# zstyle ':prezto:module:prompt' theme 'sorin'
+zstyle ':prezto:module:prompt' theme 'powerlevel10k'
 
 # Set the working directory prompt display length.
 # By default, it is set to 'short'. Set it to 'long' (without '~' expansion)
