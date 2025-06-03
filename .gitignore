@@ -4,3 +4,4 @@ modules/*/cache.zsh
 contrib
 
 .history/
+.vscode/
